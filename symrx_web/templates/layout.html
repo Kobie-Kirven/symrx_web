@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SymRx</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+
+    <ul class = "nav">
+      <li class="select"> <a href = "{{ url_for('about') }}"> About Us </a> </li>
+      <li class="select"> <a href="{{ url_for('picto') }}"> Create Pictogram </a> </li>
+      <li class="select"><a href="{{ url_for('home') }}">Home</a></li>
+      <li class="logo"><img src="static/images/logo.png"/img></li>
+    </ul>
+
+    {% block content %} {% endblock %}
+
+  </body>
+</html>
