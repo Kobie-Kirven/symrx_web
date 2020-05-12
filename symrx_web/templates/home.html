@@ -1,10 +1,18 @@
 {%extends "layout.html" %}
 
+
+{% block head %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+ {%endblock%}
+
+
+
+
+
 {% block content %}
-  <p>Hello, worlds!</p>
-  <p>Hello, worlds!</p>
-  <p>Hello, worlds!</p>
-  <p>Hello, worlds!</p>
-  <p>Hello, worlds!</p>
-  <p>Hello, worlds!</p>
+<div class="box">
+  <img class="logo" id="rslogo" src="static/images/logo.png" alt="">
+</div>
+
+<h1 class="welcome">Welcome to <span id="name">SymRx</span></h1>
 {% endblock %}

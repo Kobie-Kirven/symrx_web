@@ -1,0 +1,182 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float:left;
+  left:0;
+  padding:10px;
+  height:100vh;
+  margin: 0;
+}
+
+.left{
+  width: 35%;
+  margin: 0;
+}
+
+.right{
+  width:65%;
+}
+
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
+
+}
+
+
+.meds{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.paper {
+  width: 5.95in;
+  min-height: 7.7in;
+  border: 5px solid black;
+  position:relative;
+  right:25%;
+  left:15%;
+}
+.info {
+  font-size: 8px;
+}
+.button {
+  background-color:#9be5f5;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+#preview{
+  position: relative;
+  bottom: 0;
+  right: 0%;
+  left:0%;
+}
+
+#print{
+  position: relative;
+  bottom:-5%;
+  right: 50%;
+  left:50%;
+}
+
+.ins{
+  position: absolute;
+  border-right: 2px solid black;
+  width: 50%;
+  top:10%;
+  height: 90%;
+
+}
+
+.medication {
+  margin: 20px 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family:"Roboto",sans-serif;
+  font-size: 18px;
+  color:white;
+
+}
+
+.input {
+  width: 100%;
+ padding: 2px 5px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ background-color: #737f89;
+ border:2px solid white;
+ border-radius: 4px;
+ color:white;
+
+}
+
+.input:focus{
+   background-color: white;
+   color:#737f89;
+
+
+}
+
+.special {
+  width: 75%;
+  padding: 12px;
+}
+
+.right_side {
+  position: absolute;
+  width:50%;
+  left:50%;
+  top:10%;
+  height: 90%;
+}
+
+.names{
+  font-size: 12px;
+  margin:0;
+  font-family:"Roboto",sans-serif;
+}
+
+
+#rslogo{
+  position: absolute;
+  top:0;
+  left:90%;
+  height: 15px;
+  width:45px;
+}
+
+.pictures{
+  margin-right: -30px;
+}
+
+
+@media print {
+      .button {
+        visibility: hidden;
+      }
+      .input {
+        visibility: hidden;
+      }
+      .medication{
+        visibility: hidden;
+      }
+      .paper{
+        position: absolute;
+        left:0;
+        width:100vw;
+        height: 100vh;
+        top:0%;
+      }
+      img{
+        width:330px;
+        height:280px;
+
+      }
+
+      #two{
+        width:65px;
+        height:120px;
+        margin-bottom: 60px;
+        margin-left: -10px;
+      }
+      .logo{
+        width:80px;
+        height:50px;
+      }
+
+      p{
+        font-size: 17px;
+      }
+
+   }

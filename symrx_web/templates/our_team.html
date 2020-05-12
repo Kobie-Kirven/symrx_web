@@ -1,0 +1,74 @@
+{%extends "layout.html" %}
+
+{% block head %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/our_team.css') }}">
+ {%endblock%}
+
+{% block content %}
+<div class="row">
+ <div class="column">
+   <div class="card">
+     <img src="static/images/afeli.jpg" alt="Jane" style="width:100%">
+     <div class="container">
+       <h2>Serge Afeli, PhD</h2>
+       <p class="title">Faculty Advisor, Team Leader</p>
+       <p>Lead the SymRx team</p>
+       <p>safeli@presby.edu</p>
+       <p><button class="button">Contact</button></p>
+     </div>
+   </div>
+ </div>
+
+ <div class="column">
+   <div class="card">
+     <img src="static/images/jess.jpg" alt="Mike" style="width:100%">
+     <div class="container">
+       <h2>Jess Escobar</h2>
+       <p class="title">Graphic Illustrator</p>
+       <p>Designed the layout and asthetic for the website </p>
+       <p>jnescobar@presby.edu</p>
+       <p><button class="button">Contact</button></p>
+     </div>
+   </div>
+ </div>
+
+ <div class="column">
+   <div class="card">
+     <!-- <img src="" style="width:100%"> -->
+     <div class="container">
+       <h2>Raven Habrooks</h2>
+       <p class="title">Designer</p>
+       <p>Prototyped pictograms and conceptualized website layout</p>
+       <p>rmholbroo@presby.edu</p>
+       <p><button class="button">Contact</button></p>
+     </div>
+   </div>
+ </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="static/images/sarah.jpg" alt="John" style="width:100%">
+    <div class="container">
+      <h2>Sarah Lankford</h2>
+      <p class="title">Graphic Designer</p>
+      <p>Designed the pictographs used in the pictograms</p>
+      <p>sdlankfor@presby.edu</p>
+      <p><button class="button">Contact</button></p>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="static/images/kobie.jpg" alt="John" style="width:100%">
+    <div class="container">
+      <h2>Kobie Kirven</h2>
+      <p class="title">Software Engineer</p>
+      <p>Wrote the code for the SymRx website.</p>
+      <p>kjkirven@presby.edu</p>
+      <p><button class="button">Contact</button></p>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+.box{
+  position: relative;
+  background-color: #9be5f5;
+  top:0%;
+  height: 50vh;
+}
+img {
+  position: relative;
+  width: 65%;
+  height:75%;
+  right:25%;
+  left:15%;
+  top:0%;
+
+}
+
+.welcome{
+  position: absolute;
+  top:50%;
+  color: #737f89;
+  font-family: "Roboto",sans-serif;
+  font-size: 9vw;
+  right:8%;
+
+}
+
+#name{
+  color: #9be5f5;
+}
