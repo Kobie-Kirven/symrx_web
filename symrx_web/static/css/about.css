@@ -1,0 +1,105 @@
+h1 {
+  color:#737f89;
+  font-family: "Roboto",sans-serif;
+  position: absolute;
+  right:25%;
+  left:5%;
+  font-size: 50px;
+  top:10%;
+}
+
+#graphical {
+  color:#9be5f5;
+}
+
+.button {
+  position: absolute;
+  top:27.5%;
+  border:none;
+  padding: 20px 36px;
+  margin: 10px;
+  font-family:"Roboto",sans-serif;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+  color:#6f7d8b;
+}
+
+#start{
+  position: absolute;
+  right:25%;
+  left:5%;
+  background-color: #9be5f5;
+}
+
+#start:hover{
+  background-color: #737f89;
+  color:white;
+}
+#contact {
+  position: absolute;
+  right:35%;
+  left:19%;
+}
+
+#contact:hover{
+  background-color: #9be5f5;
+  color:#737f89;
+}
+
+.box {
+  position: relative;
+  font-family: "Roboto",sans-serif;
+  top:35%;
+  width: 250px;
+  height:275px;
+  background-color:#9be5f5;
+  left:5%;
+  float:left;
+  padding: 10px;
+  margin: 10px;
+  color:#737f89;
+  margin-top: 50px;
+}
+
+.box:hover{
+  background-color:#c4cbd2;
+}
+
+.top {
+  height:100px;
+  width:100px;
+  position: absolute;
+  top:-20%;
+  right:10%;
+  left:30%;
+}
+
+.over_70{
+  position: relative;
+  top:3%;
+  left:0%;
+  right:20%;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left:10px;
+}
+
+.grapical {
+  position: relative;
+  top:3%;
+  font-size: 20px;
+  left:5%;
+  padding-right: 10px;
+  line-height: 1.4;
+}
+
+.read_more {
+  position: absolute;
+  left:7%;
+  bottom:15%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

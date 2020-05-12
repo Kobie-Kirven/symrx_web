@@ -1,0 +1,31 @@
+{%extends "layout.html" %}
+
+{%block head%}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{%endblock%}
+
+{%block content%}
+<h1>Using <span id="graphical">Graphical Illustrations</span> to Improve Medical Adherence</h1>
+<button type="button" class="button" id="start">Start Now</button>
+<button type="button" class="button" id="contact" onclick="window.location.href='/contact'">Contact</button>
+<div class="box">
+  <img class="top image" src="static/images/build.png">
+  <h1 class="over_70">Over 70 Pictograms</h1>
+  <p class= "grapical">Graphical Illustrations of drug forms, dosages, adiministration-routes, and precautions.</p>
+  <a class="read_more" href="#">Read More</a>
+</div>
+
+<div class="box">
+  <img class="top image" src="static/images/cash.png">
+  <h1 class="over_70">Diverse Payment Plans</h1>
+  <p class= "grapical">Make a monthly or yearly commitment to the program.</p>
+  <a class="read_more" href="#">Read More</a>
+</div>
+
+<div class="box">
+  <img class="top image" src="static/images/check.png">
+  <h1 class="over_70">Going Beyond Literacy</h1>
+  <p class= "grapical">Our approach in tackling medical non-adherence is specially designed, user-friendly, and intuitative..</p>
+  <a class="read_more" href="#">Read More</a>
+</div>
+{%endblock%}
